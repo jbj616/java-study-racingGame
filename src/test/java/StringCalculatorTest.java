@@ -47,7 +47,7 @@ public class StringCalculatorTest {
     }
 
     @Test(expected = RuntimeException.class)
-    public void testIsBlank() {
+    public void testIsBlankError() {
         calculator.makeResult(" ");
     }
 }
